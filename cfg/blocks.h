@@ -4,6 +4,7 @@ static const Block blocks[] = {
 	{"", "sb-pacpackages",	3600,	8},
 	{"", "sb-forecast",		1800,	5},
 	{"", "sb-nettraf",		2,		16},
+	{"", "sb-cpuusage",		2,		15},
 	{"", "sb-memory",		2,		14},
 	{"", "sb-volume",		2,		10},
 	{"", "sb-brightness",	2,		18},
