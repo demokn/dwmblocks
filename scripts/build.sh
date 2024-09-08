@@ -5,7 +5,7 @@ ROOT_PWD=$(dirname $(dirname "$0"))
 cd "$ROOT_PWD"
 
 if [ -d patches ] ; then
-	for patch in patches/* ; do
+	for patch in patches/*.diff ; do
 		git apply "$patch" || exit 1
 	done
 fi
